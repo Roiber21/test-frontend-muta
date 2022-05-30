@@ -1,0 +1,110 @@
+:root{
+    --text--full:#1A1A1A;
+    --heding-fontFamily: "HelveticaNeueCyr";
+    --heding-fontzize-h1: 44px;
+    --heding-lineHeigth-h1: 44px;
+    --heding-Fontzize-h3: 28px;
+    --heding-lineHeigth-h3: 36px;
+    --body-FontFamily: "Inter";
+    --body-regular-FontWeigth: 400;
+    --body-medium-FontWeigth: 700;
+    --body-14-FontZize: 14px;
+    --body-14-LineHeigth: 20px;
+    --body-16-FontZize: 16px;
+    --body-16-LineHeigth: 24px;
+    --text--60:#9E9E9E;
+    --text--full:#1A1A1A;
+    --text--80:#616161;
+    --text--40:#E0E0E0;
+    --alt--b: #F1F7F9;
+}
+.container{
+ background-color: var(--alt--b);
+ position: absolute;
+width: 1205px;
+height: 960px;
+left: 235px;
+top: 0px;
+}
+.title_recoleccion{
+    position: absolute;
+    height: 44px;
+    left: 0%;
+    right: 57.15%;
+    padding-left: 72px;
+    top: 54px;
+
+}
+.title_recoleccion p{
+  font-family:Arial, Helvetica, sans-serif;
+    color: var(--text--full);
+    font-weight: 700;
+    font-size: var(--heding-fontzize-h1);
+    line-height: var(--heding-lineHeigth-h1);
+}
+.opcions{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    padding-left: 73px;
+    position: absolute;
+    width: 165px;
+    height: 36px;
+    left: 0px;
+    top: 206px;
+}
+.opcion_hoy{
+    width: 53px;
+height: 36px;
+font-family:Arial, Helvetica, sans-serif;
+color: var(--text--full);
+font-weight: 700;
+font-size: var(--heding-Fontzize-h3);
+line-height: var(--heding-lineHeigth-h3);
+text-decoration: none;
+}
+.opcion_todas{
+    width: 53px;
+    height: 36px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: var(--text--60);
+    font-weight: 700;
+    font-size: var(--heding-Fontzize-h3);
+    line-height: var(--heding-lineHeigth-h3);
+    text-decoration: none;
+}
+.pages{
+ display: inline-flex;
+ position: relative;
+    top: 880px;
+    left: 972px;
+}
+.pages p{
+font-family: var(--body-FontFamily);
+font-style: normal;
+font-weight: var(--body-medium-FontWeigth);
+font-size: var(--body-16-FontZize);
+line-height: var(--body-16-LineHeigth);
+text-align: right;
+color: var(--text--full);
+}
+.arrows::before{
+        content: '';
+        position: relative;
+        width: 24px;
+        transform: rotate(90deg);
+        height: 2px;
+        top: 11px;
+        background: var(--text--40);
+}
+.arrows{
+    width: 77px;
+    height: 24px;
+    position: relative;
+    top: 16px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,160 @@
+:root {
+  /* colors primary and secondary */
+  --primary-default: #ebb36b;
+  --primary-hover: #d3841d;
+  --primary-pressed: #a66817;
+  --secondary--default: #557ce6;
+  --secondary--hover: #002589;
+  --secondary--pressed: #001652;
+  --secondary--border: #aab9e1;
+  --secondary--focus: #d9e1f4;
+  --secondary--bg_color: #f0f4ff;
+  /* Alt  */
+  --alt--a: #ffffff;
+  --alt--b: #f1f7f9;
+  --alt--c: #eef2f8;
+  /*  */
+  /* text */
+  --text--full: #1a1a1a;
+  --text--80: #616161;
+  --text--60: #9e9e9e;
+  --text--40: #e0e0e0;
+  /*  */
+  /*  text styles heding*/
+  --heding-fontFamily: "HelveticaNeueCyr";
+  --heding-fontzize-h1: 44px;
+  --heding-lineHeigth-h1: 44px;
+  --heding-Fontzize-h2: 36px;
+  --heding-lineHeigth-h2: 44px;
+  --heding-Fontzize-h3: 28px;
+  --heding-lineHeigth-h3: 36px;
+  --heding-Fontzize-h4: 20px;
+  --heding-lineHeigth-h4: 28px;
+  /* text styles body */
+  --body-FontFamily: "Inter";
+  --body-regular-FontWeigth: 400;
+  --body-medium-FontWeigth: 700;
+  --body-12-FontZize: 12px;
+  --body-12-LineHeigth: 12px;
+  --body-14-FontZize: 14px;
+  --body-14-LineHeigth: 20px;
+  --body-16-FontZize: 16px;
+  --body-16-LineHeigth: 24px;
+}
+
+.sidebar_content {
+  width: 235px;
+  height: 960px;
+  background-color: var(--alt--a);
+  position: absolute;
+  width: 235px;
+  height: 960px;
+  left: 0px;
+  top: 0px;
+}
+.logo {
+  position: absolute;
+  left: 22.13%;
+  right: 22.13%;
+  top: 6.77%;
+  bottom: 89.9%;
+}
+.menu {
+  position: absolute;
+  width: 203px;
+  height: 200px;
+  top: 176px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 32px 8px 24px;
+  gap: 8px;
+  width: 203px;
+  height: 40px;
+  border-radius: 8px;
+}
+.item:active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  width: 165px;
+  height: 40px;
+  background: var(--alt--b);
+  border-radius: 8px;
+}
+.icons {
+  width: 15.67px;
+  height: 16px;
+}
+.item:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  width: 165px;
+  height: 10px;
+  background:var(--alt--b);
+  border-radius: 8px;
+}
+.icons {
+  width: 15.67px;
+  height: 16px;
+}
+
+.menu li {
+  list-style: none;
+}
+.menu a {
+  text-decoration: none;
+  font-family: var(--body-FontFamily);
+  font-size: var(--body-16-FontZize);
+  font-style: normal;
+  font-weight: var(--body-medium-FontWeigth);
+  line-height: var(--body-16-LineHeigth);
+  color: var(--text--full);
+  left: 47.67px;
+  width: 123.33px;
+  height: 24px;
+}
+.userBurble {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px 4px 4px;
+  gap: 8px;
+  position: absolute;
+  left: 17.02%;
+  right: 17.02%;
+  top: 93.33%;
+  bottom: 3.33%;
+  background:var(--alt--b);
+  border-radius: 24px;
+}
+.user_image {
+  width: 24px;
+  height: 24px;
+  background-color: var(--alt--a);
+  top: 4px;
+  left: 4px;
+  border-radius: 20px;
+}
+.user_name {
+  width: 107px;
+  height: 16px;
+  top: 8px;
+  left: 36px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
