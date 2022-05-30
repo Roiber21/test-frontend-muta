@@ -39,7 +39,7 @@
   z-index: 2;
   background-color: var(--alt--a);
   top: 1px;
-  transition:  background-color 10s;
+ 
 }
 
 /* styles modal entradas */
